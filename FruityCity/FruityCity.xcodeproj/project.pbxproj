@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B46C9295288F730200A28329 /* FruityCityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C9294288F730200A28329 /* FruityCityApp.swift */; };
+		B46C9297288F730200A28329 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C9296288F730200A28329 /* ContentView.swift */; };
+		B46C9299288F730300A28329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46C9298288F730300A28329 /* Assets.xcassets */; };
+		B46C929C288F730300A28329 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46C929B288F730300A28329 /* Preview Assets.xcassets */; };
+		B46C92A6288F730300A28329 /* FruityCityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92A5288F730300A28329 /* FruityCityTests.swift */; };
+		B46C92B0288F730300A28329 /* FruityCityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92AF288F730300A28329 /* FruityCityUITests.swift */; };
+		B46C92B2288F730300A28329 /* FruityCityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92B1288F730300A28329 /* FruityCityUITestsLaunchTests.swift */; };
+		B46C92C3288F752400A28329 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92C2288F752400A28329 /* CardView.swift */; };
+		B46C92C5288F75BE00A28329 /* FruitsData.txt in Resources */ = {isa = PBXBuildFile; fileRef = B46C92C4288F75BE00A28329 /* FruitsData.txt */; };
+		B46C92C7288F76C000A28329 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92C6288F76C000A28329 /* OnboardingView.swift */; };
+		B46C92C9288F783800A28329 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92C8288F783800A28329 /* Fruit.swift */; };
+		B46C92CD288F795400A28329 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92CC288F795400A28329 /* StartButton.swift */; };
+		B46C92CF288F7B7800A28329 /* FruitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92CE288F7B7800A28329 /* FruitCell.swift */; };
+		B46C92D1288F7D9500A28329 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92D0288F7D9500A28329 /* FruitDetailView.swift */; };
+		B46C92D3288F7E3900A28329 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92D2288F7E3900A28329 /* FruitHeaderView.swift */; };
+		B46C92D5288F805500A28329 /* FruitLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92D4288F805500A28329 /* FruitLink.swift */; };
+		B46C92D7288F827900A28329 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C92D6288F827900A28329 /* NutritionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B46C92A2288F730300A28329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46C9289288F730200A28329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46C9290288F730200A28329;
+			remoteInfo = FruityCity;
+		};
+		B46C92AC288F730300A28329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B46C9289288F730200A28329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B46C9290288F730200A28329;
+			remoteInfo = FruityCity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B46C9291288F730200A28329 /* FruityCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruityCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46C9294288F730200A28329 /* FruityCityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruityCityApp.swift; sourceTree = "<group>"; };
+		B46C9296288F730200A28329 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B46C9298288F730300A28329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B46C929B288F730300A28329 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B46C92A1288F730300A28329 /* FruityCityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruityCityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46C92A5288F730300A28329 /* FruityCityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruityCityTests.swift; sourceTree = "<group>"; };
+		B46C92AB288F730300A28329 /* FruityCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FruityCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46C92AF288F730300A28329 /* FruityCityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruityCityUITests.swift; sourceTree = "<group>"; };
+		B46C92B1288F730300A28329 /* FruityCityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruityCityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B46C92C2288F752400A28329 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B46C92C4288F75BE00A28329 /* FruitsData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FruitsData.txt; sourceTree = "<group>"; };
+		B46C92C6288F76C000A28329 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B46C92C8288F783800A28329 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		B46C92CC288F795400A28329 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		B46C92CE288F7B7800A28329 /* FruitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCell.swift; sourceTree = "<group>"; };
+		B46C92D0288F7D9500A28329 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		B46C92D2288F7E3900A28329 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		B46C92D4288F805500A28329 /* FruitLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitLink.swift; sourceTree = "<group>"; };
+		B46C92D6288F827900A28329 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B46C928E288F730200A28329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C929E288F730300A28329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C92A8288F730300A28329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B46C9288288F730200A28329 = {
+			isa = PBXGroup;
+			children = (
+				B46C9293288F730200A28329 /* FruityCity */,
+				B46C92A4288F730300A28329 /* FruityCityTests */,
+				B46C92AE288F730300A28329 /* FruityCityUITests */,
+				B46C9292288F730200A28329 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B46C9292288F730200A28329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B46C9291288F730200A28329 /* FruityCity.app */,
+				B46C92A1288F730300A28329 /* FruityCityTests.xctest */,
+				B46C92AB288F730300A28329 /* FruityCityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B46C9293288F730200A28329 /* FruityCity */ = {
+			isa = PBXGroup;
+			children = (
+				B46C92C1288F750600A28329 /* Data */,
+				B46C92C0288F750100A28329 /* Model */,
+				B46C92BF288F74F900A28329 /* View */,
+				B46C92BE288F74F100A28329 /* Screen */,
+				B46C9294288F730200A28329 /* FruityCityApp.swift */,
+				B46C9298288F730300A28329 /* Assets.xcassets */,
+				B46C929A288F730300A28329 /* Preview Content */,
+			);
+			path = FruityCity;
+			sourceTree = "<group>";
+		};
+		B46C929A288F730300A28329 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B46C929B288F730300A28329 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B46C92A4288F730300A28329 /* FruityCityTests */ = {
+			isa = PBXGroup;
+			children = (
+				B46C92A5288F730300A28329 /* FruityCityTests.swift */,
+			);
+			path = FruityCityTests;
+			sourceTree = "<group>";
+		};
+		B46C92AE288F730300A28329 /* FruityCityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B46C92AF288F730300A28329 /* FruityCityUITests.swift */,
+				B46C92B1288F730300A28329 /* FruityCityUITestsLaunchTests.swift */,
+			);
+			path = FruityCityUITests;
+			sourceTree = "<group>";
+		};
+		B46C92BE288F74F100A28329 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B46C9296288F730200A28329 /* ContentView.swift */,
+				B46C92C6288F76C000A28329 /* OnboardingView.swift */,
+				B46C92D0288F7D9500A28329 /* FruitDetailView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		B46C92BF288F74F900A28329 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B46C92C2288F752400A28329 /* CardView.swift */,
+				B46C92CC288F795400A28329 /* StartButton.swift */,
+				B46C92CE288F7B7800A28329 /* FruitCell.swift */,
+				B46C92D2288F7E3900A28329 /* FruitHeaderView.swift */,
+				B46C92D4288F805500A28329 /* FruitLink.swift */,
+				B46C92D6288F827900A28329 /* NutritionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B46C92C0288F750100A28329 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B46C92C8288F783800A28329 /* Fruit.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B46C92C1288F750600A28329 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B46C92C4288F75BE00A28329 /* FruitsData.txt */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B46C9290288F730200A28329 /* FruityCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46C92B5288F730300A28329 /* Build configuration list for PBXNativeTarget "FruityCity" */;
+			buildPhases = (
+				B46C928D288F730200A28329 /* Sources */,
+				B46C928E288F730200A28329 /* Frameworks */,
+				B46C928F288F730200A28329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruityCity;
+			productName = FruityCity;
+			productReference = B46C9291288F730200A28329 /* FruityCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B46C92A0288F730300A28329 /* FruityCityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46C92B8288F730300A28329 /* Build configuration list for PBXNativeTarget "FruityCityTests" */;
+			buildPhases = (
+				B46C929D288F730300A28329 /* Sources */,
+				B46C929E288F730300A28329 /* Frameworks */,
+				B46C929F288F730300A28329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46C92A3288F730300A28329 /* PBXTargetDependency */,
+			);
+			name = FruityCityTests;
+			productName = FruityCityTests;
+			productReference = B46C92A1288F730300A28329 /* FruityCityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B46C92AA288F730300A28329 /* FruityCityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46C92BB288F730300A28329 /* Build configuration list for PBXNativeTarget "FruityCityUITests" */;
+			buildPhases = (
+				B46C92A7288F730300A28329 /* Sources */,
+				B46C92A8288F730300A28329 /* Frameworks */,
+				B46C92A9288F730300A28329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B46C92AD288F730300A28329 /* PBXTargetDependency */,
+			);
+			name = FruityCityUITests;
+			productName = FruityCityUITests;
+			productReference = B46C92AB288F730300A28329 /* FruityCityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B46C9289288F730200A28329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B46C9290288F730200A28329 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B46C92A0288F730300A28329 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B46C9290288F730200A28329;
+					};
+					B46C92AA288F730300A28329 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B46C9290288F730200A28329;
+					};
+				};
+			};
+			buildConfigurationList = B46C928C288F730200A28329 /* Build configuration list for PBXProject "FruityCity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B46C9288288F730200A28329;
+			productRefGroup = B46C9292288F730200A28329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B46C9290288F730200A28329 /* FruityCity */,
+				B46C92A0288F730300A28329 /* FruityCityTests */,
+				B46C92AA288F730300A28329 /* FruityCityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B46C928F288F730200A28329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46C929C288F730300A28329 /* Preview Assets.xcassets in Resources */,
+				B46C9299288F730300A28329 /* Assets.xcassets in Resources */,
+				B46C92C5288F75BE00A28329 /* FruitsData.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C929F288F730300A28329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C92A9288F730300A28329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B46C928D288F730200A28329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46C92D1288F7D9500A28329 /* FruitDetailView.swift in Sources */,
+				B46C92CD288F795400A28329 /* StartButton.swift in Sources */,
+				B46C92D5288F805500A28329 /* FruitLink.swift in Sources */,
+				B46C92C9288F783800A28329 /* Fruit.swift in Sources */,
+				B46C9297288F730200A28329 /* ContentView.swift in Sources */,
+				B46C92C7288F76C000A28329 /* OnboardingView.swift in Sources */,
+				B46C92D3288F7E3900A28329 /* FruitHeaderView.swift in Sources */,
+				B46C92CF288F7B7800A28329 /* FruitCell.swift in Sources */,
+				B46C92D7288F827900A28329 /* NutritionView.swift in Sources */,
+				B46C92C3288F752400A28329 /* CardView.swift in Sources */,
+				B46C9295288F730200A28329 /* FruityCityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C929D288F730300A28329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46C92A6288F730300A28329 /* FruityCityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B46C92A7288F730300A28329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46C92B2288F730300A28329 /* FruityCityUITestsLaunchTests.swift in Sources */,
+				B46C92B0288F730300A28329 /* FruityCityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B46C92A3288F730300A28329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46C9290288F730200A28329 /* FruityCity */;
+			targetProxy = B46C92A2288F730300A28329 /* PBXContainerItemProxy */;
+		};
+		B46C92AD288F730300A28329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B46C9290288F730200A28329 /* FruityCity */;
+			targetProxy = B46C92AC288F730300A28329 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B46C92B3288F730300A28329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B46C92B4288F730300A28329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B46C92B6288F730300A28329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FruityCity/Preview Content\"";
+				DEVELOPMENT_TEAM = 482L4QAXA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkatSwitUI.FruityCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B46C92B7288F730300A28329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FruityCity/Preview Content\"";
+				DEVELOPMENT_TEAM = 482L4QAXA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkatSwitUI.FruityCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B46C92B9288F730300A28329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 482L4QAXA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkatSwitUI.FruityCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FruityCity.app/FruityCity";
+			};
+			name = Debug;
+		};
+		B46C92BA288F730300A28329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 482L4QAXA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkatSwitUI.FruityCityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FruityCity.app/FruityCity";
+			};
+			name = Release;
+		};
+		B46C92BC288F730300A28329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 482L4QAXA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkatSwitUI.FruityCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FruityCity;
+			};
+			name = Debug;
+		};
+		B46C92BD288F730300A28329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 482L4QAXA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkatSwitUI.FruityCityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FruityCity;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B46C928C288F730200A28329 /* Build configuration list for PBXProject "FruityCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46C92B3288F730300A28329 /* Debug */,
+				B46C92B4288F730300A28329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46C92B5288F730300A28329 /* Build configuration list for PBXNativeTarget "FruityCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46C92B6288F730300A28329 /* Debug */,
+				B46C92B7288F730300A28329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46C92B8288F730300A28329 /* Build configuration list for PBXNativeTarget "FruityCityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46C92B9288F730300A28329 /* Debug */,
+				B46C92BA288F730300A28329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46C92BB288F730300A28329 /* Build configuration list for PBXNativeTarget "FruityCityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B46C92BC288F730300A28329 /* Debug */,
+				B46C92BD288F730300A28329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B46C9289288F730200A28329 /* Project object */;
+}
