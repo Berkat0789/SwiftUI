@@ -35,6 +35,7 @@ struct FruitDetailView: View {
                     FruitLink()
                     
                 }
+                .frame(maxWidth: 640)
                 .padding(.horizontal, 12)
             }// End Scroll
             .navigationBarHidden(true)
@@ -42,6 +43,8 @@ struct FruitDetailView: View {
 
             
         }// End Navigation View
+        .navigationViewStyle(.stack)
+
     }
 }
 
