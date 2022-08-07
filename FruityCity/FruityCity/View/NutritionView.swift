@@ -24,14 +24,14 @@ struct NutritionView: View {
                                     .foregroundColor(fruit.gradientColors[1])
                                 Text(nutritionValues[index])
                                     .foregroundColor(fruit.gradientColors[1])
-                            }
+                            } // Stack for left with icon and title
                             Spacer()
                             Text(fruit.nutrition[index])
 
-                        }
+                        }// Stack containing both content
                         
                     }
-                } // vstack LEvt
+                } // V stack for all content
             }
         }
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B42506452892DB6800AB3CE5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42506442892DB6800AB3CE5 /* SettingsView.swift */; };
 		B46C9295288F730200A28329 /* FruityCityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C9294288F730200A28329 /* FruityCityApp.swift */; };
 		B46C9297288F730200A28329 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46C9296288F730200A28329 /* ContentView.swift */; };
 		B46C9299288F730300A28329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46C9298288F730300A28329 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B42506442892DB6800AB3CE5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B46C9291288F730200A28329 /* FruityCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruityCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46C9294288F730200A28329 /* FruityCityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruityCityApp.swift; sourceTree = "<group>"; };
 		B46C9296288F730200A28329 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				B46C9296288F730200A28329 /* ContentView.swift */,
 				B46C92C6288F76C000A28329 /* OnboardingView.swift */,
 				B46C92D0288F7D9500A28329 /* FruitDetailView.swift */,
+				B42506442892DB6800AB3CE5 /* SettingsView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				B46C92D3288F7E3900A28329 /* FruitHeaderView.swift in Sources */,
 				B46C92CF288F7B7800A28329 /* FruitCell.swift in Sources */,
 				B46C92D7288F827900A28329 /* NutritionView.swift in Sources */,
+				B42506452892DB6800AB3CE5 /* SettingsView.swift in Sources */,
 				B46C92C3288F752400A28329 /* CardView.swift in Sources */,
 				B46C9295288F730200A28329 /* FruityCityApp.swift in Sources */,
 			);
