@@ -20,7 +20,9 @@ struct ContentView: View {
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 
                 ForEach(animals) { animal in
-                  AnimalCellView(animal: animal)
+                    NavigationLink(destination: DetailView(animal: animal)) {
+                        AnimalCellView(animal: animal)
+                    }
                 }
             }
             .navigationTitle("Africa")
