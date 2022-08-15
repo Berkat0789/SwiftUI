@@ -43,11 +43,11 @@ struct ProductDetailView: View {
                 
                 
                 // Quantity + Favorite
-                
+                QuantityFavoriteDetailGroup()
+                    .padding(.vertical, 10)
                 
                 // Add to cart
-                Spacer()
-            }
+                AddtoCart()            }
             .padding()
             .background(
                 Color.white
