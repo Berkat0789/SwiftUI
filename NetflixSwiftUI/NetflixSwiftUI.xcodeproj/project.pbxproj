@@ -15,11 +15,14 @@
 		B484526F28A9DFCB00E7E5EF /* NetflixSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484526E28A9DFCB00E7E5EF /* NetflixSwiftUIUITests.swift */; };
 		B484527128A9DFCB00E7E5EF /* NetflixSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484527028A9DFCB00E7E5EF /* NetflixSwiftUIUITestsLaunchTests.swift */; };
 		B484528028A9E19600E7E5EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B484527F28A9E19600E7E5EF /* HomeView.swift */; };
+		B48CE15E28AAED5D00C802D1 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CE15D28AAED5D00C802D1 /* SmallVerticalButton.swift */; };
+		B48CE16028AAF22300C802D1 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CE15F28AAF22300C802D1 /* WhiteButton.swift */; };
 		B4D905EA28A9E6660096F114 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B4D905E928A9E6660096F114 /* Kingfisher */; };
 		B4D905ED28AA8D460096F114 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D905EC28AA8D460096F114 /* Movie.swift */; };
 		B4D905EF28AA8D930096F114 /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D905EE28AA8D930096F114 /* StandardHomeMovie.swift */; };
 		B4D905F228AA8DD50096F114 /* GolbalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D905F128AA8DD50096F114 /* GolbalHelpers.swift */; };
 		B4D905F428AA918B0096F114 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D905F328AA918B0096F114 /* HomeVM.swift */; };
+		B4D905F628AA9C500096F114 /* TopHeroPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D905F528AA9C500096F114 /* TopHeroPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +54,13 @@
 		B484526E28A9DFCB00E7E5EF /* NetflixSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSwiftUIUITests.swift; sourceTree = "<group>"; };
 		B484527028A9DFCB00E7E5EF /* NetflixSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B484527F28A9E19600E7E5EF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B48CE15D28AAED5D00C802D1 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
+		B48CE15F28AAF22300C802D1 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
 		B4D905EC28AA8D460096F114 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		B4D905EE28AA8D930096F114 /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
 		B4D905F128AA8DD50096F114 /* GolbalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolbalHelpers.swift; sourceTree = "<group>"; };
 		B4D905F328AA918B0096F114 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		B4D905F528AA9C500096F114 /* TopHeroPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHeroPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +169,9 @@
 			isa = PBXGroup;
 			children = (
 				B4D905EE28AA8D930096F114 /* StandardHomeMovie.swift */,
+				B4D905F528AA9C500096F114 /* TopHeroPreview.swift */,
+				B48CE15D28AAED5D00C802D1 /* SmallVerticalButton.swift */,
+				B48CE15F28AAF22300C802D1 /* WhiteButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,12 +330,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B484528028A9E19600E7E5EF /* HomeView.swift in Sources */,
+				B48CE16028AAF22300C802D1 /* WhiteButton.swift in Sources */,
 				B484525628A9DFCA00E7E5EF /* ContentView.swift in Sources */,
+				B4D905F628AA9C500096F114 /* TopHeroPreview.swift in Sources */,
 				B4D905F428AA918B0096F114 /* HomeVM.swift in Sources */,
 				B4D905F228AA8DD50096F114 /* GolbalHelpers.swift in Sources */,
 				B4D905EF28AA8D930096F114 /* StandardHomeMovie.swift in Sources */,
 				B4D905ED28AA8D460096F114 /* Movie.swift in Sources */,
 				B484525428A9DFCA00E7E5EF /* NetflixSwiftUIApp.swift in Sources */,
+				B48CE15E28AAED5D00C802D1 /* SmallVerticalButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

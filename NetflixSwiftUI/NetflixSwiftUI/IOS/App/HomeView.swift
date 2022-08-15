@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     
     var homeVM = HomeVM()
+    let screen = UIScreen.main.bounds
     
     var body: some View {
         ZStack {
@@ -20,9 +21,15 @@ struct HomeView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 
                 LazyVStack { // lazy slows down the request for all the images in view
+                    
+                    TopHeroPreview(movie: exampleMovie1)
+                        .frame(width: screen.width)
+                        .padding(.top, -110)
+                    
+                    
                     ForEach(homeVM.allCategories, id: \.self) { category in
                         VStack {
-                            HStack {
+                            HStack { 
                                 Text(category)
                                     .font(.title3)
                                     .fontWeight(.bold)
